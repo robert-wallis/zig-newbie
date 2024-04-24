@@ -9,6 +9,7 @@ fn twice(input: anytype) [input.len * 2]u8 {
     return output;
 }
 
+// ✅ Passes
 test twice {
     const input = "pizza";
     const actual: [input.len * 2]u8 = twice(input);

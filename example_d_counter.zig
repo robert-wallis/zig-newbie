@@ -1,5 +1,6 @@
 const std = @import("std");
 
+// ✅ Passes
 test "bytesToHex" {
     // Kristoff commented https://ziggit.dev/t/newbie-comptime-anytype-papercuts/4077/2?u=robert-wallis
     // > The slice cases (D, E) didn’t work because []u8 is a mutable slice.
